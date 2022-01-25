@@ -2,12 +2,13 @@ body {
     margin: 0; 
     display: flex;
     flex-direction: column;
-    font-family: Roboto; 
+    font-family: 'Roboto', sans-serif; 
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    padding-left: 8px;
 }
 
 button {
@@ -20,9 +21,8 @@ button {
 
 .introduction, .benefits,
 .testimonial, .action {
-    padding: 8px 100px;
+    padding: 50px 100px;
     flex: 1;
-    
 }
 
 .introduction {
@@ -30,27 +30,50 @@ button {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    padding-top: 0px
 }
 
+header {
+    display: flex;
+    justify-content: space-between;   
+}
+header img {
+    flex: 0 1 auto;
+    width: 50px;
+}
 .intro-content {
     display: flex;
     gap: 20px;
+    padding: 30px 0;
 }
 .sussy-intro {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
+
+
+.sussy-intro button {
+    width: 100px;
+}
+
 .icon { 
     flex: 1;
 }
 
 .subtext, .navlinks {
-    color: #E5E7EB;
+    color: 	#D3D3D3;
+}
+
+.subtext {
+    margin: 10px 0;
 }
 
 .title {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
+    
     
 }
 .benefits-content {
@@ -72,26 +95,34 @@ button {
 .testimonial{
     padding: 40px 100px;
     background-color:  #E5E7EB;
-    
+    text-align: center;
 }
 .quote {
     font-size: 24px;
-    text-align: center;
 }
 .credit {
-    text-align: end;
     font-weight: 500;
 }
 
-header {
+.action {
+    margin: 50px 300px;
+    padding: 20px 50px;
     display: flex;
-    justify-content: space-between;   
-}
-header img {
-    flex: 0 1 auto;
-    width: 50px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
+.action button {
+    border-color: white;
+    padding: 4px 10px;
+    white-space: nowrap;
+    height: 3rem;
+}
+
+.action .text {
+    color: white;
+}
 footer {
     display: flex;
     justify-content: center;
