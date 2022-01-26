@@ -45,6 +45,7 @@ header img {
     display: flex;
     gap: 20px;
     padding: 30px 0;
+    justify-content: space-between;
 }
 .sussy-intro {
     flex: 1;
@@ -57,7 +58,7 @@ header img {
     width: 100px;
 }
 
-.icon { 
+.intro-content img { 
     flex: 1;
 }
 
